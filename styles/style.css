@@ -1,0 +1,176 @@
+/* .................fonts.............. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* .............header style.............. */
+
+.header{
+    background-color: darkblue;
+    width: 100%;
+     height: 677px;
+}
+.header-item{
+    display: flex;
+   
+}
+.header-about{
+    margin-left: 156px;
+}
+.header-item h1{
+    font-size: 64px;
+    margin-bottom: 27px;
+}
+.header-about p{
+    display: inline;
+    background-color: #e02c6d;
+    padding: 10px 24px 10px 24px;
+}
+.header-about p a{
+
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.header-image img{
+
+    width: 100%;
+    height: 436px;
+    
+}
+
+/* ..............navigation style.............................. */
+
+.navigation{
+
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 49px;
+    justify-content: space-between;
+}
+.navigation ul{
+
+    display: flex;
+    margin-top: 52px;
+    padding-left: 156px;
+
+}
+.navigation ul li{
+    list-style: none;
+    margin-right: 36px;
+}
+.navigation ul li a{
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.log-in{
+    display: inline;
+    background-color: #e02c6d;
+    padding: 10px 24px 10px 24px;
+    margin-top: 42px;
+    margin-right: 124px;
+}
+.log-in a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* ...............common style and utilities............. */
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+  
+}
+ .container{
+
+    display: flex;
+   flex-direction: column; 
+    align-items: center;
+ }
+.neymar-mescr7{
+
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-gap: 20px;
+   
+}
+.player{
+    width: 330px;
+height: 474px;
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+padding-left: 17px;
+margin-top: 45px;
+margin-bottom: -40px;
+
+}
+.player img{
+
+    width: 300px;
+height: 256px;
+margin: 16px 0;
+
+}
+.player p{
+
+    color: #6C6C6C;
+    font-size: 16px;
+   
+}
+
+.player img p{
+width: 300px;
+height: 154px;
+}
+
+
+/* .........Extra option added here................ */
+
+
+
+
+#match-highlight{
+
+     background-color: darkslategray;
+     color: floralwhite;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 340px;
+    border: 2px solid blueviolet;
+    padding: 5px 0 5px 0;
+    border-radius: 35px;
+    width: 500px;
+        
+}
+ 
+.youtube-video{
+
+    display: flex;
+     
+    
+
+}
+.recent-match{
+
+    margin-left: 40px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.watch-more{
+
+    background-color: #f5ab0c;
+  margin-left: 500px;
+  margin-right: 300px;
+  margin-top: 10px;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-size: 800;
+
+}
