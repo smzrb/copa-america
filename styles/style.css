@@ -22,6 +22,12 @@
     width: 485px;
     color: #FFFFFF;
 }
+.header-item h1:hover{
+  background-color: rgb(194, 194, 152);
+  margin-left: 50px;
+  padding: 20px;
+  border-radius: 40px;
+}
 .header-about p{
     display: inline;
     background-color: #e02c6d;
@@ -38,7 +44,14 @@
 
     width: 100%;
     height: 436px;
+    transition: transform 3s;
     
+}
+.header-image img:hover{
+    width: 100%;
+    height: 436px;
+    transform: rotate(360deg);
+
 }
 
 /* ..............navigation style.............................. */
@@ -248,3 +261,4 @@ height: 154px;
 /* ...........Media Queries............... */
 
 /* ...........Mobile Device................ */
+  
